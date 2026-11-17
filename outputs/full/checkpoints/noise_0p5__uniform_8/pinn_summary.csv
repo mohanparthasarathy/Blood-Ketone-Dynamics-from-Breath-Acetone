@@ -1,0 +1,2 @@
+gamma_mode,N_patients,N_temporal_holdout,BHB_RMSE_holdout_mM,BHB_MAE_holdout_mM,slope_RMSE_holdout_mM_h,direction_accuracy_holdout,sensitivity_rising,specificity_falling,balanced_accuracy_holdout,acetone_RMSE_holdout_ppm
+prior,6,18,0.113732672857307,0.0868574925629485,0.0350603753900815,1,1,1,1,0.0399708658778477
