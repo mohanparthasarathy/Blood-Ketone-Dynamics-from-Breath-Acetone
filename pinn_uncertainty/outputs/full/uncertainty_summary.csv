@@ -1,0 +1,2 @@
+confidence_level,N_patients,Gamma_coverage,BHB_holdout_coverage,slope_holdout_coverage,mean_BHB_band_width_mM
+0.95,6,1,0.777777777777778,0.944444444444444,0.313434664573934
