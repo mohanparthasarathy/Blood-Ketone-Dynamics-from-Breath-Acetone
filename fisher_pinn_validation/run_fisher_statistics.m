@@ -1,0 +1,13 @@
+%RUN_FISHER_STATISTICS Analyze existing results; performs no PINN training.
+clear; clc
+here=fileparts(mfilename('fullpath'));
+fisher_statistics=run_fisher_validation_statistics( ...
+    fullfile(here,'outputs','fisher_validation_full', ...
+        'fisher_pinn_validation.mat'), ...
+    fullfile(here,'outputs','fisher_validation_statistics'), ...
+    struct('bootstrap_replicates',10000,'confidence_level',.95));
+
+disp(fisher_statistics.absolute_metrics)
+disp(fisher_statistics.paired_differences)
+disp(fisher_statistics.patient_metrics)
+disp(fisher_statistics.retention)

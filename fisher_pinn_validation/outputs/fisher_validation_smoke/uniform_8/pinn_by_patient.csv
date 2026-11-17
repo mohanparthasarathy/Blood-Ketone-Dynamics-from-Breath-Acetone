@@ -1,0 +1,2 @@
+patient_id,scenario,N_fit,N_holdout,final_loss,BHB_RMSE_holdout_mM,slope_RMSE_holdout_mM_h,acetone_RMSE_holdout_ppm
+14,developing,7,3,0.000472302781417966,0.0343332350092137,0.0308632733313024,0.270646516986341
