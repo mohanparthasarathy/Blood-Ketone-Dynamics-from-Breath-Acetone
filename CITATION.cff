@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when using this code."
+title: "Multiscale breath-ketone reconstruction"
+version: 1.0.0
+type: software
+authors:
+  - family-names: Parthasarathy
+    given-names: Mohan
+  - family-names: Seshaiyer
+    given-names: Padmanabhan
+license: MIT
